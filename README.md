@@ -1,6 +1,6 @@
 Hey guys.
 This is the shared repository for the website. All the images you need are in the imgs folder, videos in videos, self-explanatory.
-To create a review, duplicate the file called 'review-template.html'. Rename it to the name you need (example: rename the geometry dash review to 'geometrydash.html', 'gd.html', or something similar.
+To create a review, duplicate the file called 'review-template.html'. Rename it to the name you need (example: rename the geometry dash review to 'geometrydash.html', 'gd.html', or something similar).
 The code may look confusing, but everything has a comment which explains what it is and what to do there. These comments look like this:
 ```
 <!--Comment here.-->
