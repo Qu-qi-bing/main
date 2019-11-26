@@ -5,6 +5,6 @@ The code may look confusing, but everything has a comment which explains what it
 ```
 <!--Comment here.-->
 ```
-Just follow the instructions (or learn HTML). Dylan, you know a bit of HTML, so here's your chance to learn more. Hate to sound lecturing, but just wanted to let you guys be able to write reviews.
+Just follow the instructions (or learn HTML). Dylan, you know a bit of HTML (also he just mentioned you know some too, Oscar), so here's your chance to learn more. Hate to sound lecturing, but just wanted to let you guys be able to write reviews.
 Once you've written your review, you can (optionally) delete all the comments, preview the file and, if you're happy, (optionally) leave a description of what you changed in the bottom box, then hit "Commit changes".
 Let's do this.
