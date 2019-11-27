@@ -1,0 +1,129 @@
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+body {
+	background-color: white;
+	font-family: Arial;
+}
+#site-nav {
+	background-color: #333;
+	overflow: hidden;
+}
+#site-nav a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 24px;
+	border: 1px rgba(103,103,103,1.00) solid;
+	text-decoration: none;
+	font-size: 17px;
+}
+#site-nav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+#site-nav a.active {
+	background-color: #4CAF50;
+	color: white;
+}
+img {
+	margin: auto;
+}
+a {
+	color: #0010A3;
+	text-decoration: none;
+}
+form {
+	width: 500px;
+	padding: 20px;
+	border: 2px solid black;
+}
+.container {
+	position: relative;
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 40%;
+}
+
+.image {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.infobox {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .infobox {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
