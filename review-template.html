@@ -1,9 +1,37 @@
 <!doctype HTML>
 <html>
+  
+  <!--This is the template page for our reviews. These comments will tell you what each tag does, what they should be replaced with, and how to make the page good. The first thing you should do is go into the top and change the file name to "reviews/(name).html". Replace name with something relevant. Make it an acronym, a short name, whatever. The reviews/ part will automatically put it in the 'Reviews' folder. Anything without a comment shouldn't really be changed.-->
   <head>
+    
     <!--The title is the text that will appear on a couple of places. Mostly, though, it appears on the tabs. I recommend you follow the template.-->
     <title>Teh Swaghouse | (game name) Review</title>
+    
     <!--This is a link, which connects the page to the css sheet so the page looks fancy. You don't need to edit.-->
     <link rel="stylesheet" type="html/css" href="styles.css">
   </head>
+  
+  <!--The body is everything on the actual page, while the head is all the metadata.-->
+  <body>
+    
+    <!--All this is just the menu. Pay it no heed.-->
+    <div id="myNav" class="overlay">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<div class="overlay-content">
+        <a href="index.html">Home</a>
+				<a href="reviews.html">Reviews</a>
+				<a href="about.html">About</a>
+				<a href="contact.html">Contact</a>
+			</div>
+		</div>
+		<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+		<script>
+			function openNav() {
+				document.getElementById("myNav").style.height = "100%";
+			}
+			function closeNav() {
+				document.getElementById("myNav").style.height = "0%";
+			}
+    </script>
+  </body>
 </html>
